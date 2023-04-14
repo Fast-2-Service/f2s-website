@@ -1,0 +1,24 @@
+.navContainer {
+    width: 60%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+    .navContainer {
+        width: 100%;
+    }
+}
+
+.navContainer img {
+    width: 7rem;
+    height: 2.5rem;
+}
+
+.navItems {
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.navItems > div > a {
+    color: rgb(19, 18, 18);
+}

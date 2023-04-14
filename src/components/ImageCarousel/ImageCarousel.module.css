@@ -1,0 +1,13 @@
+.carousel {
+    background-color: #EFF1FB;
+}
+
+.item {
+    margin: 0 3rem;
+}
+
+.item img {
+    width: 40%;
+    height: 47vh;
+    float: right;
+}
