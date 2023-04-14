@@ -4,6 +4,8 @@ import Head from 'next/head';
 
 import { SSRProvider } from 'react-bootstrap';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
