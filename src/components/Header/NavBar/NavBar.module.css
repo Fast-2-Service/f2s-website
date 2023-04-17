@@ -22,3 +22,18 @@
 .navItems > div > a {
     color: rgb(19, 18, 18);
 }
+
+.navItems > div > a:hover, .navItems > div > a:focus {
+    color: black;
+    border-radius: 2rem;
+    font-weight: bold;
+    background-color: rgb(0, 255, 255);
+}
+
+.navItems > div > a {
+    font-size: 1.2rem;
+}
+
+.navItems > div {
+    margin: 0 0.6rem;
+}
