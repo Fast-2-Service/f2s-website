@@ -1,0 +1,56 @@
+.content {
+    display: flex;
+    margin: 4rem 0rem 0;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+}
+
+.contentBox {
+    padding: 2rem;
+}
+
+.advantages {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.advantages > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.advantage {
+    margin: 1rem 3rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .content {
+        flex-direction: column;
+    }
+}
+
+.cite {
+    color: rgb(126, 122, 122);
+    font-style: normal;
+}
+
+.who-we-are {
+    background-color: rgb(200, 255, 255);
+    margin: 0;
+    width: 100vw;
+    height: 30vh;
+}
+
+.who-we-are h2 {
+    margin: 2rem 0;
+    font-size: 3rem;
+}
+
+.who-we-are p {
+    font-size: 1.4rem;
+    width: 40%;
+    text-align: center;
+}
