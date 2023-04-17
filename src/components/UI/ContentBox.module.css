@@ -1,0 +1,26 @@
+.box {
+    height: 50vh;
+    width: 50vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 800px) {
+    .box {
+        height: 70vh;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .box {
+        /* height: 70vh; */
+        width: 100vw;
+        margin: 1rem;
+    }
+}
+
+
