@@ -1,0 +1,10 @@
+.footer-content-box {
+    width: 100vw;
+    background-color: rgb(230, 255, 255);
+    margin-top: 10rem;
+    align-items: flex-start;
+    padding: 4rem;
+    justify-content: space-around;
+    flex-direction: row;
+    height: fit-content;
+}

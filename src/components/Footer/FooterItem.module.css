@@ -1,0 +1,34 @@
+.footer-item {
+    color: rgb(82, 80, 80);
+
+}
+
+.footer-item ul {
+    padding: 0;
+}
+
+.footer-item h5 {
+    margin: 1rem 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.footer-content span {
+    font-size: 1.1rem;
+}
+
+
+
+.footer-links {
+    list-style: none;
+    color: rgb(37, 37, 37);
+    text-decoration: none;
+}
+
+.footer-links:hover {
+    color: rgb(37, 37, 37);
+}
