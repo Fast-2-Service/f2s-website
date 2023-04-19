@@ -8,6 +8,7 @@ import NavBarItemMenu from "./NavBarItemMenu";
 
 import navBarClasses from './NavBar.module.css';
 
+const QUICK_REPAIR_BASE_URL: string = "/quick-repair";
 
 const menuItems: DropDownItem[] = [
     {
@@ -16,19 +17,19 @@ const menuItems: DropDownItem[] = [
         options: [
             {
                 name: "AC Service and Repair",
-                link: "",
+                link: `${QUICK_REPAIR_BASE_URL}/ac-service-and-repair`,
             },
             {
                 name: "Washing Machine Repair",
-                link: "",
+                link: `${QUICK_REPAIR_BASE_URL}/washing-machine-repair`,
             },
             {
                 name: "Refrigerator Repair",
-                link: "",
+                link: `${QUICK_REPAIR_BASE_URL}/refrigerator-repair`,
             },
             {
                 name: "Television Repair",
-                link: "",
+                link: `${QUICK_REPAIR_BASE_URL}/television-repair`,
             },
         ],
     },
@@ -56,7 +57,7 @@ function NavBar() {
     return (
         <Navbar bg="light" expand="lg">
             <Container fluid className={navBarClasses.navContainer}>
-                <Navbar.Brand href="#"><img
+                <Navbar.Brand href="/"><img
                     src="/nav-logo.png"
                     className="d-inline-block align-top"
                     alt="F2S logo" />
